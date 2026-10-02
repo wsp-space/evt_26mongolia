@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "261001_26モンゴル_分離機構.kicad_pro",
+    "filename": "separation_mechanism.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -411,18 +411,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "261001_26モンゴル_分離機構.kicad_sch",
-        "name": "Root",
+        "filename": "separation_mechanism.kicad_sch",
+        "name": "separation_mechanism",
         "uuid": "401ec2ad-7a88-428a-aa5b-61f8f92dab99"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R8-13,R22,J2-3,#PWR22-25,#PWR33-49,U7-8,C9-10,C13-26,Y1,FB1-2",
     "variants": []
   },
   "sheets": [
     [
       "401ec2ad-7a88-428a-aa5b-61f8f92dab99",
-      "Root"
+      "separation_mechanism"
     ]
   ],
   "text_variables": {},
