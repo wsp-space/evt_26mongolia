@@ -10,6 +10,8 @@ body:
 
         例: `refactor(sch): 抵抗のシンボルを統一`
 
+        ブランチは `refactor/番号-名前` にしてください。例: `refactor/3-resistor_symbols`
+
         動作や電気的な仕様を変える作業は feat か fix にしてください。
   - type: dropdown
     id: scope

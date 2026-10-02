@@ -10,6 +10,8 @@ body:
 
         例: `chore(sw): KiCad共通ライブラリの参照を更新`
 
+        ブランチは `chore/番号-名前` にしてください。例: `chore/5-kicad_libraries`
+
         回路や機能そのものを足す作業は feat、不具合を直す作業は fix にしてください。
   - type: dropdown
     id: scope
