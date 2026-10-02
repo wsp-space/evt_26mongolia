@@ -1,0 +1,43 @@
+name: docs（ドキュメント）
+description: READMEや仕様書を追加・更新する
+title: "docs(スコープ): "
+labels: ["docs"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        タイトル欄を `docs(スコープ): 更新すること` にしてください。括弧内は下で選んだスコープに置き換えます。
+
+        例: `docs(sys): 電源仕様をREADMEに追記`
+  - type: dropdown
+    id: scope
+    attributes:
+      label: スコープ
+      description: タイトルの括弧内と揃えてください。文書が分野にまたがるときは sys です。
+      options:
+        - "hw: ハードウェア全般（分類に迷った基板・回路）"
+        - "sch: 回路図。対象は hardware/"
+        - "pcb: パターン設計。対象は hardware/"
+        - "sw: ソフトウェア全般。対象は software/"
+        - "sys: システム全体（ハードウェアとソフトウェアの両方）"
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: 更新する文書
+      description: ファイルの場所を書いてください。
+      placeholder: README.md
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 追加・変更する内容
+      description: 何を書くか、何を直すかを書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補足
